@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    width: 1440px;
+    height: 2491px;
+    margin:0, auto, 0, auto;
+    top: -225;
+    left: 709;
+    background: #000000;
+    /*background-image: url(../assets/images/woman-code.png);
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: fixed;*/
+    color:white
+}
+.banner {
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(49, 168, 221, 0) 100%);
+    background-image: url('../assets/images/banner.png');
+    background-blend-mode: color;
+    width: 1440px;
+    height: 605px;
+    padding-top: 60px;
+    margin:auto;
+    border-bottom: 1px solid #33A8DB80;
+    align-items: center;
+  }
+  
+.banner-content p{
+    width: 530px;
+    height: 46px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+   
+}
+ .banner-content {
+    color: white;
+    margin: auto;
+    flex: none;
+    order: 2;
+    text-align: center;
+    flex-grow: 0;
+    width: 510px;
+    height: 393px;
+    top: 56px;
+    left: 465px;
+    gap: 16px;
+
+  }
+  .banner h1 {
+    width: 434px;
+    height: 47px;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 40px;
+    margin: auto;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+ 
+  .logo img{
+    width: 268px;
+    height: 268px;
+    gap: 10px;
+    opacity: 0px;
+    margin:20,auto,20,auto;
+    padding-bottom: 20px;
+  }
+  .banner-content button{
+    margin-top: 30px;
+    width: 326px;
+    height: 57px;
+    color:  #31A8DD;
+    text-transform: uppercase;
+    border: 1px solid  #31A8DD;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    background-image: url('../assets/images/banner.png');
+    background-blend-mode: color;
+  }
+#professional-challenges{
+  position: absolute;
+width: 659px;
+height: 429px;
+left: 390px;
+top: 1685px;
+}
