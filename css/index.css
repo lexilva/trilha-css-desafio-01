@@ -153,3 +153,10 @@ top: 1685px;
 span{
   color: #33A8D8;
 }
+#transform-world{
+  background-image: url(../assets/images/woman-code.png);
+  background-size: cover;
+  background-clip: border-box;
+  background-attachment: fixed;
+  height: 600px;
+}
