@@ -96,10 +96,12 @@ left: 390px;
 top: 1685px;
 }
 #course-content{ 
-  height: 325px;
+  margin-top: 4rem;
+  height: 405px;
   width: 792px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px dashed transparent
 }
 #course-content h2{
     width: 477px;
@@ -116,12 +118,38 @@ top: 1685px;
     line-height: 37.57px;
 }
 #course-content p{
-    
+  width: 792px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+  margin-top: 2.5rem;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .modules-list{
-  
+  width: Fixed 535px;
+  height: 51px;
+  padding: 16px 127px 16px 127px;
+  text-align: center;
+  gap: 10px;
+  border-radius: 57px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
 }
-.modules{
-
-
+.module{
+  height: 19px;
+  width: 440px;
+  font-size: 16px;
+  padding: 16px 80px 16px 80px;
+  margin: 1rem auto;
+  gap: 10px;
+  border-radius: 57px;
+  border: 1px solid #33A8D8;
+  opacity: 0px;
+  background: #252525;
+}
+span{
+  color: #33A8D8;
 }
