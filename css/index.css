@@ -3,17 +3,19 @@
     padding: 0;
 }
 body{
+    font-family: 'Raleway';
     position: relative;
     width: 1440px;
     height: 2491px;
     margin:0, auto, 0, auto;
-    top: -225;
-    left: 709;
+    /*
     background: #000000;
-    /*background-image: url(../assets/images/woman-code.png);
+    background-image: url(../assets/images/woman-code.png);
     background-size: cover;
     background-clip: border-box;
     background-attachment: fixed;*/
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 90%, rgba(49, 168, 221, 0) 100%);
+
     color:white
 }
 .banner {
@@ -38,7 +40,7 @@ body{
     line-height: 23px;
    
 }
- .banner-content {
+.banner-content {
     color: white;
     margin: auto;
     flex: none;
@@ -52,13 +54,13 @@ body{
     gap: 16px;
 
   }
-  .banner h1 {
+.banner h1 {
     width: 434px;
     height: 47px;
     font-family: 'Raleway';
     font-weight: 900;
     font-size: 40px;
-    margin: auto;
+    margin:20px auto;
     text-transform: uppercase;
     color: transparent;
     background: -webkit-linear-gradient(#33A8DB, #1472B7);
@@ -67,7 +69,6 @@ body{
     text-align: center;
     padding-bottom: 20px;
   }
- 
   .logo img{
     width: 268px;
     height: 268px;
@@ -87,10 +88,40 @@ body{
     background-image: url('../assets/images/banner.png');
     background-blend-mode: color;
   }
-#professional-challenges{
+  #professional-challenges{
   position: absolute;
 width: 659px;
 height: 429px;
 left: 390px;
 top: 1685px;
+}
+#course-content{ 
+  height: 325px;
+  width: 792px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#course-content h2{
+    width: 477px;
+    height: 38px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 32px;
+    line-height: 37.57px;
+}
+#course-content p{
+    
+}
+.modules-list{
+  
+}
+.modules{
+
+
 }
