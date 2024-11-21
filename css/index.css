@@ -67,7 +67,7 @@ body{
     height: 268px;
     gap: 10px;
     opacity: 0px;
-    margin:20,auto,20,auto;
+    margin:0px auto 0px auto;
     padding-bottom: 20px;
   }
   .banner-content button{
@@ -89,19 +89,18 @@ body{
   top: 1685px;
 }
 #course-content{ 
-  margin-top: 4rem;
   height: 405px;
   width: 792px;
   margin-left: auto;
   margin-right: auto;
   border: 1px dashed transparent
 }
-#course-content h2{
+h2{
     width: 477px;
     height: 38px;
     text-align: center;
     font-weight: 700;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-right: auto;
     margin-left: auto;
     color: #33A8DB;
@@ -166,4 +165,56 @@ span{
   color: #FFFFFF;
   text-shadow:   1px 1px 2px black,
    0 0.1em #33a8db;
+}
+#professional-challenges{
+  background: #000000;
+  width: 1440px;
+  height: 660px;
+  left: auto;
+  padding-top: 2rem;
+  text-align: center;
+}
+#professional-challenges h2{
+  width: 746px;
+  height: 46px;
+}
+#professional-challenges p{
+  width: 792px;
+  height: 76px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer{
+  
+  background: #000000;
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.dio-logo{
+  width: 310px;
+  height: 44px;
+}
+.dio-logo p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+}
+ a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  color:#33a8db
 }
